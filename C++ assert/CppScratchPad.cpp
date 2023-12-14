@@ -12,5 +12,7 @@ int main()
 {
 	int i = 5;
 	int j = i * i;
-	assert(j == 25);
+	assert(j == 25);  // assert true
+	assert(j == 24);  // assert false , output:assertion failed: j == 24
+
 }
