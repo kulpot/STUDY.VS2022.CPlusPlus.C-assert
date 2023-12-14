@@ -1,7 +1,9 @@
 // ---------------------------- C++ assert -----------------------------------------------------------
 // ref link:https://www.youtube.com/watch?v=72dt8Fvr7x8&list=PLRwVmtr-pp056ahRbFrYbeAnIu2qvXPFe&index=5
 
-// assert - boolean expresiong - true(nochange) - false(someError)
+// ASSERT is for bug checking
+// assert - boolean expression - true(nochange) - false(someError)
+
 // #ifdef NDEBUG
 // 
 // #define assert(expression) ((void)0)		<-- compile out
