@@ -14,5 +14,6 @@ int main()
 	int j = i * i;
 	assert(j == 25);  // assert true
 	assert(j == 24);  // assert false , output:assertion failed: j == 24
+	cout << "continuing" << endl;
 
 }
