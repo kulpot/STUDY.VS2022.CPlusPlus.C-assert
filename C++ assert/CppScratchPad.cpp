@@ -2,6 +2,11 @@
 // ref link:https://www.youtube.com/watch?v=72dt8Fvr7x8&list=PLRwVmtr-pp056ahRbFrYbeAnIu2qvXPFe&index=5
 
 // ASSERT is for bug checking
+// Assert is a function that takes a Boolean expression
+// assert(true) > program goes to the next line
+// assert(false) > program crashes, ends, weird behavior
+// It is used for debugging purposes
+
 // assert - boolean expression - true(nochange) - false(someError)
 
 // #ifdef NDEBUG
