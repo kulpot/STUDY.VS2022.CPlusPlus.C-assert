@@ -3,11 +3,14 @@
 
 // assert - boolean - true(nochange) - false(someError)
 
+#include <cassert>
 #include <iostream>
 using std::cout;
 using std::endl;
 
 int main()
 {
-
+	int i = 5;
+	int j = i * i;
+	assert(j == 25);
 }
